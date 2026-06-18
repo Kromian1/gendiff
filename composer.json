@@ -1,0 +1,38 @@
+{
+    "name": "hexlet/code",
+    "description": "Вычислитель отличий",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Gendiff\\": "src/",
+            "Differ\\Differ\\": "src/"
+        },
+        "files": [
+            "src/Formatter.php",
+            "src/functions.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Gendiff\\Tests\\": "tests/",
+            "Differ\\Differ\\": "src/"
+        }
+    },
+    "bin": ["bin/gendiff"],
+    "type": "library",
+    "authors": [
+        {
+            "name": "Михаил Кузнецов"
+        }
+    ],
+    "require": {
+        "php": "^8.3",
+        "docopt/docopt": "^1.0",
+        "symfony/yaml": "^7.4",
+        "illuminate/collections": "^12.41"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^4.0",
+        "phpunit/phpunit": "^12"
+    }
+}
