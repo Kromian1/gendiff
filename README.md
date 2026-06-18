@@ -152,3 +152,9 @@ _JSON, YAML, YML._
 **Сравнение с явным выбором формата вывода Plain**: https://asciinema.org/a/tvPzADTuFjZZ5fagvUhc62qE6
 
 **Сравнение с явным выбором формата вывода json**: https://asciinema.org/a/Az2V18BbYjSkZVA2Ik3sLUcUY
+
+## Автор
+
+**Михаил Кузнецов**
+
+**GitHub:** https://github.com/Kromian1
